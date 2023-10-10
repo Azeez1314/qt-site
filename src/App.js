@@ -5,8 +5,10 @@ import Documentation from "./pages/Documentation";
 import Services from "./pages/Services";
 import Pagenotfound from "./pages/Pagenotfound";
 import './App.css';
-import LoginPage from "./pages/Login";
-import Signup from "./pages/Signup";
+import LoginPage from "./pages/Auth/Login";
+import Signup from "./pages/Auth/Signup";
+import { ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 function App() {

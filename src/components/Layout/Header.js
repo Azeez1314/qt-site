@@ -35,14 +35,22 @@ const Header = () => {
       </a>
       </NavLink>
       <NavLink to="/documentation">
-      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
         Documentation
+      </a>
+      </NavLink>
+       <NavLink to="/services">
+      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+        Services
       </a>
       </NavLink>
     </div>
     <div>
       <NavLink to="/login">
-      <a  href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Login</a>
+      <a  href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0 mr-4">Login</a>
+      </NavLink>
+      <NavLink to="/signup">
+      <a  href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Sign up</a>
       </NavLink>
     </div>
   </div>
